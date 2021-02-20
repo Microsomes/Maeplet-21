@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maeplet</title>
+
+  <script src="./script/index.js" defer></script>
+
+
+  <style>
+    body {
+      background-color: #1d1d1d;
+      margin: 0;
+      height: 100vh;
+
+    }
+
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #linkage {
+      position: fixed;
+      top: 145px;
+      right: 0px;
+      background-color: #2d2d3d;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px;
+      width: 100px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    h1,
+    p,
+    h2,
+    a,
+    h3 {
+      font-family: 'arial';
+      color: #efefef;
+    }
+
+    p {
+      font-size: 10pt;
+      font-style: italic;
+      color: #686868;
+      text-align: center;
+    }
+
+    #effectChanger {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 250px;
+    }
+
+    #effectChanger p {
+      text-align: left;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background:black;height:120vh">
+  <canvas id="myCanvas"></canvas>
+
+  <nav style="background:black" class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand" style="display:flex;align-items:center;">
+      <a class="navbar-item" href="https://bulma.io">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/facebook-ba784.appspot.com/o/logo_white.png?alt=media&token=088f09af-4cda-4669-a172-06a7b151f0c0"
+          alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
+      </a>
+      <h2>Global Events, News and much much more. </h2>
+    </div>
+  </nav>
+
+  <div class="container section">
+    <article class="message">
+      <div style=";background:black" class="message-header">
+        <p style="color:white;font-family: 'Roboto', sans-serif;">Welcome to Maeplet.com</p>
+        <!-- <button class="delete" aria-label="delete"></button> -->
+      </div>
+      <div class="message-body">
+        <b>Maeplet is Back</b>.
+        Maeplet is Back. Create video links with your buddies. Mini-games and full battle map games coming soon.
+        Subscribe to the mail list to find out when the exciting new Games are out. All Early users get <b>1 Million
+          Coins</b> worth (£10k) for free. Really. Without early adoption, we won't have a Game. Not real Money of
+        course but exchangeable for a really fun experience in the game. Coins will be sent to your wallet automatically
+        when the wallet system is active. Learn more about the game <b><a href="#LearnMore">here</a>.</b>
+
+      </div>
+    </article>
+    <progress class="progress is-small is-warning" max="100">99%</progress>
+
+
+    
+    <div style="height:40px;margin-bottom: 20px;">
+      <h1 class="title" style="color:White">Benefits of Maeplet.com</h1>
+    </div>
+
+
+    <div style="display:flex;align-items:center;justify-content:center;">
+
+ 
+
+      <div style="display: none;">
+        <div style="background:#202020;color:white;" id="LearnMore" class="content section card">
+          <h1 style="color:white;">Quick Video Service</h1>
+          <p style="color:white;">Connect to your friends via P2P chat. In the future you will be able to pin yourself on the map so that
+            people around the world can connect to you, to play games and just chat.</p>
+          <h2 style="color:white;">Create a Chat Room</h2>
+          <a href="/room"><button class="button">Join A Room</button></a>
+          <ul>
+            <li>Totally Free Video Chat</li>
+            <li>Zero Logs, Honestly, we have no commercial interests.</li>
+            <li>Extremely Quick, No annoying cookies or popup ads Yuck!</li>
+            <li>No accounts needed! Annoying!!!</li>
+          </ul>
+        </div>
+        <div style="width:50px"></div>
+        <div style="background:#202020;color:white" id="LearnMore" class="content section card">
+          <h1 style="color:white">Check out the Map</h1>
+          <p style="color:White;">Contains lots of news data.
+            Note: These features are in early development and will be improved over time.
+           <h2 style="color:white;">Explore the News on a Map</h2>
+          <a href="/room"><button class="button">Check out the Map</button></a>
+          <ul>
+            <li>View the News in a new Way</li>
+            <li>Interesting Global news. Satisfy your hunger.</li>
+            <li>Play Journalist, Pin your own news. Add easy to read summaries to help others.</li>
+            <li>Don't wait around, showcase your jounalism. Free Website builder available to showcase your portfolio for early adopters coming soon</li>
+            <li>Become an Early Adopter 😎😎😎</li>
+          </ul>
+
+
+          <!-- <figure class="image is-large">
+  <img style="border-radius: 12px;" src="https://firebasestorage.googleapis.com/v0/b/facebook-ba784.appspot.com/o/pexels-andrew-neel-2859169.jpg?alt=media&token=ebfc9305-0a94-458a-8f38-41db82b0e54f">
+</figure> -->
+        </div>
+
+      </div>
+
+    </div>
+
+
+</body>
+
+</html>
